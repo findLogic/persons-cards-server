@@ -6,7 +6,7 @@ const app = express();
 const PORT = 5000;
 
 // Включение CORS (для фронтенда)
-app.use(cors());
+app.use(cors({ origin: 'https://persons-cards-expandable.vercel.app' }));
 
 // Генерация 20 случайных пользователей
 const generatePersons = (count = 20) => {
