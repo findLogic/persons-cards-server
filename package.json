@@ -1,0 +1,17 @@
+{
+  "name": "serverpersons",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.6.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
